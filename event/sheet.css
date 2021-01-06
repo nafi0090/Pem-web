@@ -1,0 +1,165 @@
+body{
+    background-image: linear-gradient(120deg, #2980b9, white);
+    font-size: 14px;
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.header{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.header:after, #header:before{
+    display: table;
+    content: "";
+}
+
+.header:after{
+    clear: both;
+}
+
+.header h1{
+    color: #fff;
+    text-shadow: 1px 1px 0px #000 2px 2px 0p;
+}
+
+.header p{
+    font-weight: 900;
+    color: #ddd;
+}
+
+.form-container{
+    background: #fbfbfb ;
+    padding: 20px;
+    border: 1px solid #aaa;
+    position: relative;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 2);
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.form-container:after, .form-container:before{
+    background: #fbfbfb;
+    border: 1px solid #000;
+    bottom: -8px;
+    position: absolute;
+    left: 4px;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 2);
+    border-radius: 3px;
+}
+
+.form-container:before{
+    bottom: -14px;
+    left: 8px;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+}
+
+fieldset{
+    border: 3px solid #bbb;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+legend{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-grup{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.form-grup:after, .form-grup:before{
+    display: table;
+    content: "";
+}
+
+.form-grup:after{
+    clear: both;
+}
+
+.label{
+    float: left;
+    width: 30%;
+    border: 0;
+    font-weight: 900;
+    color: #777;
+    font-size: 12px;
+}
+
+.label label{
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.input{
+    float: left;
+    width: 70%;
+    border: 0;
+}
+
+input[type=text], select, input[type=email], input[type=passsword], input [id=file-upload],
+input [type=date], input [type=checkbox], input[type=textarea], input[type=date], textarea{
+    border: 2px solid #bbb;
+    padding: 8px;
+    border-radius: 3px;
+    background: #fff;
+    width: 100%;
+}
+
+input[type=text], select:focus, input[type=email]:focus, input[type=passsword]:focus, input [id=file-upload]:focus,
+input [type=date]:focus, input [type=checkbox]:focus, input[type=textarea]:focus, input[type=date]:focus, textarea:focus{
+    border: 2px solid blue;
+}
+
+select{
+    width: inherit;
+}
+
+input[type=file]{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.upload-foto{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+button[type=submit]{
+    background-color: rgb(118, 177, 233);
+    border-radius: 18px;
+    font-family: Arial;
+    color: grey;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    float: right;
+}
+
+button[type=submit]:hover{
+    background: rgb(118, 177, 233);
+    text-decoration: none;
+}

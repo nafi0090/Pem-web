@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexNew</title>
+    <link rel="stylesheet" href="sheet.css">
+    <title>Form Pendaftaran Event</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Form Create Event</h1>
+            <p>Silahkan Isi Sesuai Kepentingan Anda</p>
+        </div>
+
+        <div class="form-container">
+            <form action="" method="post" autocomplete="on" id="form1">
+                <fieldset>
+                    <legend>Deskripsi Event</legend>
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Nama Event :</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="nama" placeholder="Masukkan Nama Event" maxlength="30" autofocus>
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Fokus Kegiatan</label>
+                        </div>
+                        <div class="input">
+                            <input type="radio" name="kegiatan" value="1">Masyarakat<br>
+                            <input type="radio" name="kegiatan" value="2">Lingkungan<br>
+                            <input type="radio" name="kegiatan" value="2">dll<br>
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Mulai Event: </label>
+                            <div class="input">
+                                <input type="date" name="tgl_lahir">
+                            </div>
+                        </div>
+                        <div class="label">
+                            <label>Akhir Event : </label>
+                            <div class="input">
+                                <input type="date" name="tgl_lahir">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Batas Regristasi</label>
+                        </div>
+                        <div class="input">
+                            <input type="date" name="tgl_lahir">
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Pelaksanaan Event</label>
+                        </div>
+                        <div class="input">
+                            <input type="checkbox" name="event" value="mobil">Online <br>
+                            <input type="checkbox" name="event" value="mobil">Ofline<br>
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Detail Aktivitas :</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="nama" placeholder="Masukkan Detail Aktivitas" maxlength="30" autofocus>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="form-grup">
+                    <button type="submit"> <a href="page4.html">Next</a></button>
+                    <button type="submit"> <a href="page2.html">Back</a></button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Copyright &copy; MIB_Kel5</p>
+    </footer>
+</body>
+</html>

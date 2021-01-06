@@ -1,0 +1,94 @@
+/* untuk template browser */
+*, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}
+
+/* untuk navbar/menu diatas */
+nav{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
+nav ul li{
+    display: inline-block;
+    padding: 1%;
+    padding-left: 5%;
+}
+nav ul li :hover{
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(189, 186, 186);
+}
+.login{
+    float: right;
+    padding-right: 5%;
+}
+
+/* untuk isi */
+.home_event{
+    height: 100%;
+    width: 100%;
+}
+.overlay{
+    margin-top: -15%;
+}
+.upcoming{
+    color: rgb(189, 186, 186);
+    padding-left: 5%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(189, 186, 186);
+}
+.box-event{
+    color: rgb(189, 186, 186);
+    margin-top: 0%;
+}    
+.date{
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.date p{
+    margin-top: 50px;
+}
+.foto-event{
+    float: left;
+    margin-left: 5%;
+}
+.info-event{
+    float: left;
+    height: 100px;
+    width: 55%;
+    margin-left: 5%;
+}
+.info-event a{
+    margin-top: 10px;
+
+}
+.info-event p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* untuk copyright*/
+#footer{
+    text-align: center;
+    background-color: rgb(189, 186, 186);
+    height: 20px;
+    margin-top: 50%;
+    padding-top: 10px;
+}

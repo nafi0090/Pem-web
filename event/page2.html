@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexNew</title>
+    <link rel="stylesheet" href="sheet.css">
+    <title>Form Pendaftaran Event</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Form Create Event</h1>
+            <p>Silahkan Isi Sesuai Kepentingan Anda</p>
+        </div>
+
+        <div class="form-container">
+            <form action="" method="post" autocomplete="on" id="form1">
+                <fieldset>
+                    <legend>About Organitation</legend>
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Nama Organitation :</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="nama" placeholder="Masukkan Nama Organitation" maxlength="30" autofocus>
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label for="gambar">Logo Organisasi :</label>
+                        </div>
+                        <div class="input">
+                            <input id="file-upload" type="text" name="file-upload">
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Domisili :</label>
+                        </div>
+                        <div class="input">
+                            <select name="kota">
+                                <option value="malang">Malang</option>
+                                <option value="surabya">Surabaya</option>
+                                <option value="kediri">Kediri</option>
+                                <option value="kediri">dll</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Tanggal Pendirian </label>
+                        </div>
+                        <div class="input">
+                            <input type="date" name="tgl_lahir">
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Tipe Organisasi</label>
+                        </div>
+                        <div class="input">
+                            <input type="checkbox" name="tipe" value="mobil"> Sosial <br>
+                            <input type="checkbox" name="tipe" value="mobil"> Kesehatan <br>
+                            <input type="checkbox" name="tipe" value="mobil"> dll <br>
+                        </div>
+                    </div>
+
+                    <div class="form-grup">
+                        <div class="label">
+                            <label>Ket Singkat :</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="nama" placeholder="Jelaskan tentang organisasi Anda" maxlength="30" autofocus>
+                        </div>
+                    </div> 
+                </fieldset>      
+                
+                <div class="form-grup">
+                     <button type="submit"> <a href="page3.html">Next</a></button>
+                    <button type="submit"> <a href="page1.html">Back</a></button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Copyright &copy; MIB_Kel5</p>
+    </footer>
+</body>
+</html>
